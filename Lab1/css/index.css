@@ -1,0 +1,134 @@
+* { 
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+    background-color: green;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    word-spacing: 7px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background-color: green;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+}
+
+.myContent {
+    background-color: blue;
+    margin: auto;
+    width: 35%;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-width: thick;
+    border-color: white;
+    background-color: blue;
+    border-radius: 20px 0px 20px 0px;
+    float: left;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    text-align: center;
+    padding: 5px;
+}
+
+a {
+    color: red;
+}
+
+h2 {
+    word-spacing: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 5px;
+}
+  
+li:first-child {
+    color: white;
+    letter-spacing: 0.1px;
+}
+  
+li:last-child {
+    color: white;
+    letter-spacing: 0.1px;
+}
+  
+li:nth-child(2) {
+    color: cyan;
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 5px;
+}
+
+.visualP {
+    font-size: 18px;
+    padding: 5px;
+}
+
+table {
+   border: 1px solid;
+   text-align: center; 
+   float: right;
+   height: 110px;
+   width: 150px;
+   margin-right: 15px;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+td, th {
+    border: 1px solid;
+    vertical-align: bottom;
+    padding: 3px;
+}
+
+.first-cell {
+    background-color: green;
+}
+
+.last-cell {
+    background-color: red;
+}
+
+.thumbs-up-img {
+    float: right;
+    margin-right: 15px;
+    margin-top: 12px;
+    clear: both;
+
+}
