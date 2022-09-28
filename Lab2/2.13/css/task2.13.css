@@ -51,6 +51,12 @@
 }
 
 @media screen and (max-width: 900px) {
+    .container {
+        border-style: solid;
+        border-width: 1px;
+        border-color: green;
+    }
+
     .space {
         height: 0px;
     }
