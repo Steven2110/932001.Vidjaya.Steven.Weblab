@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    padding: 0px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: aqua;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-box {
+    background-color: bisque;
+    width: 400px;
+    padding: 5px;
+}
+
+.text-box {
+    background-color: darkgray;
+    position: relative;
+    white-space: pre-line;
+    padding: 0px;
+    font-size: 13px;
+}   
+
+@media screen and (max-width: 900px) {
+    .list-box ul li {
+        display: inline-block;
+    }
+
+    .list-box {
+        width: 100%;
+        line-height: 0px;
+        padding: 0px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        align-self: center;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
