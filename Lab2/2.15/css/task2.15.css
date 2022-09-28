@@ -1,0 +1,20 @@
+/* * {
+    margin: 0%;
+} */
+
+.inline-blocks {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inline-block-box {
+    display: inline;
+    background-color: aquamarine;
+    margin: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+.clear-box {
+    background-color: bisque;
+}
