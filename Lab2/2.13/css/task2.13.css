@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    padding: 0px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-box {
+    background-color: bisque;
+    width: 250px;
+    padding: 5px;
+}
+
+.blue-box {
+    background-color: aqua;
+    width: 260px;
+    height: 100%;
+}
+
+.text-container {
+    display: flex;
+    background-color: darkgray;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.space {
+    height: 310px;
+    padding: 0px;
+    background-color: darkgray;
+}
+
+.text-box {
+    background-color: darkgray;
+    position: relative;
+    white-space: pre-line;
+    padding: 0px;
+    font-size: 11.4px;
+}
+
+.hamster-image {
+    display: inline;
+    float: right;
+    vertical-align: text-top;
+    width: 500px;
+    height: 450px;
+    clear: both;
+}
+
+@media screen and (max-width: 900px) {
+    .container {
+        border-style: solid;
+        border-width: 1px;
+        border-color: green;
+    }
+
+    .space {
+        height: 0px;
+    }
+
+    .hamster-image {
+        width: 150px;
+        height: 150px;
+    }
+
+    .list-box {
+        width: 100px;
+    }
+
+    .blue-box {
+        width: 110px;
+    }
+
+    .text-box {
+        font-size: 14px;
+    }
+}

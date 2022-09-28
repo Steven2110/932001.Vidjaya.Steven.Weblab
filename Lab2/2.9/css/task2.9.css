@@ -1,0 +1,17 @@
+.blue-box {
+    margin: auto;
+    width: 600px;
+    background-color: blue;
+    color: white;
+}
+
+.text {
+    text-align: left;
+}
+
+.hamster-image {
+    float: right;
+    max-width: 300px;
+    max-height: 265px;
+    padding: 0 0 20px 20px;
+}

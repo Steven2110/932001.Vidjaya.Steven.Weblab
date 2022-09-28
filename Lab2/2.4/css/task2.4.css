@@ -1,0 +1,9 @@
+div {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+    color: white;
+    min-width: min-content;
+    max-width: 600px;
+    align-self: center;
+}

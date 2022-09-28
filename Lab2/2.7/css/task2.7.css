@@ -1,0 +1,52 @@
+.fixed {
+    position: fixed;
+    color: white;
+    background-color: green;
+    height: 80px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.static {
+    position: static;
+    color: white;
+    background-color: blueviolet;
+    width: 150px;
+    height: 100px;
+}
+
+.relative-1 {
+    position: relative;
+    color: white;
+    background-color: darkred;
+    width: 150px;
+    height: 80px;
+}
+
+.relative-2 {
+    position: relative;
+    color: white;
+    background-color: peru;
+    width: 150px;
+    height: 70px;
+    left: 25px;
+    top: -20px;
+}
+
+div.relative-3 {
+    position: relative;
+    color: white;
+    background-color: indianred;
+    width: 600px;
+    height: 360px;
+}
+
+div.absolute-relative {
+    position: absolute;
+    color: white;
+    background-color: indigo;
+    width: 320px;
+    height: 200px;
+    top: 90px;
+    right: 0;
+}

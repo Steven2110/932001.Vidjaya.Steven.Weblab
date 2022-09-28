@@ -1,0 +1,14 @@
+.blue-box {
+    display: flex;
+    height: max-content;
+    background-color: aqua;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.hamster-image {
+    display: block;
+    float: right;
+    margin-left: auto;
+}
