@@ -15,8 +15,6 @@ body {
     display: flex;
     flex-flow: column;
     height: 100vh;
-    max-height: min-content;
-    min-height: 100vh;
 }
 
 .main {
@@ -80,12 +78,4 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 5px;
-    width: 100%;
 }
-
-/* @media screen and (max-width: 500px) {
-    footer {
-        position: fixed;
-        bottom: -1000;
-    }
-} */
