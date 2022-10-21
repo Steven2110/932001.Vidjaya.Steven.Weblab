@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Frontend Task №6</title>
+        <link rel="stylesheet" href="css/index.css" />
+        <script type="text/javascript" src="scripts/script.js"></script>
+        <meta charset="UTF-8"/>
+    </head>
+
+    <body>
+        <div class="main" id="main">
+            <div class="container">
+                <h1>Новость 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum suspicit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+                <div class="button-center">
+                    <button class="open" onclick="openDetail(1)">Открыть всплывающее окно</button>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <h1>Новость 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum suspicit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+                <div class="button-center">
+                    <button class="open" onclick="openDetail(2)">Открыть всплывающее окно</button>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <h1>Новость 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum suspicit sed delectus facere veritatis autem quisquam unde nam doloribus?</p>
+                <div class="button-center">
+                    <button type="button" class="open" onclick="openDetail(3)">Открыть всплывающее окно</button>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="popup-news" id="popup-news">
+            <h1 id="popup-header">Some header</h1>
+            <div id="popup-headline">
+                Test headline
+            </div>
+            <p id="popup-text">Test text</p>
+        </div>
+    </body>
+</html>
