@@ -1,0 +1,48 @@
+* {
+    margin: 0%;
+}
+.main-container {
+    margin: auto;
+    width: 900px;
+    height: 500px;
+}
+
+.buttons {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px;
+}
+
+button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: larger;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.pictures {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+#catPict {
+    width: 50%;
+    background-color: blue;
+}
+
+#dogPict {
+    width: 50%;
+    background-color: green;
+}
+
+img {
+    height: min-content;
+    padding: 25px;
+    width: 90%;
+    height: 75%;
+}
