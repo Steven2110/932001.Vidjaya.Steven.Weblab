@@ -6,7 +6,7 @@
 Количество экрана: 1
 
 Task:
-## 1. Task 5.1
+## 1. Task 6.1
    
    Шаблон
    
@@ -16,7 +16,7 @@ Task:
    
    ![Результат](https://github.com/Steven2110/932001.Vidjaya.Steven.Weblab/blob/main/Lab6/screenshots/Result6.1.png)
 
-## 2. Task 5.2
+## 2. Task 6.2
    
    Шаблон
    
@@ -25,7 +25,7 @@ Task:
    Результат
    ![Результат](https://github.com/Steven2110/932001.Vidjaya.Steven.Weblab/blob/main/Lab6/screenshots/Result6.2.png)
 
-## 3. Task 5.3
+## 3. Task 6.3
    
    Шаблон
    
