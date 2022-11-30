@@ -1,0 +1,12 @@
+.circle {
+    background-color: green;
+    opacity: 0.95;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.rectangle {
+    background-color: red;
+    opacity: 0.95;
+    border: 1px solid black;
+}
