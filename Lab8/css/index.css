@@ -1,0 +1,12 @@
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.addButton {
+    width: fit-content;
+}
+
+.saveButton {
+    width: fit-content;
+}
