@@ -1,0 +1,112 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stage {
+    background-image: url("/Lab10/assets/curtain.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 0.1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.stageEffect:hover {
+    translate: 0 -5%;
+    transition-duration: 0.2s;
+}
+
+.startPlay {
+    position: absolute;
+    top: -100%;
+    transition: all 2s;
+}
+
+.lamp {
+    background-image: url("/Lab10/assets/lamp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    z-index: 4;
+}
+
+.witch {
+    margin-top: 200px;
+    background-image: url("/Lab10/assets/witch.jpg");
+    background-size: contain;
+    width: 384px;
+    height: 288px;
+    z-index: 3;
+}
+
+.stagePerformer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    visibility: hidden;
+}
+
+.magic {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.hat {
+    transform: rotate(180deg);
+    background-image: url("/Lab10/assets/hat.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    z-index: 4;
+}
+
+#animal {
+    margin-top: 200px;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    transition: top 0.5s;
+    top: 0px;
+}
+
+#animal.rabbit {
+    z-index: 4;
+    background-image: url("/Lab10/assets/rabbit.png");
+}
+
+#animal.bird {
+    z-index: 4;
+    background-image: url("/Lab10/assets/pigeon.png");
+}
+
+.light {
+    height: 0;
+    position: absolute;
+    top: 85px;
+    border-bottom: 900px solid rgba(255, 208, 0, 0.199);
+    border-left: 472px solid transparent;
+    border-right: 468px solid transparent;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    visibility: hidden;
+    z-index: 3;
+}
