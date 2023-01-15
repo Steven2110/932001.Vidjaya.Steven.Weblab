@@ -1,5 +1,10 @@
+{
+    var comma = false
+}
+
 function clearScreen() {
     document.getElementById("display").value = "";
+    comma = false
 }
 
 function backspace(){
@@ -13,16 +18,27 @@ function backspace(){
 }
 
 function display(value) {
-    var val = document.getElementById("display").value
-    if(val == "0") {
-        document.getElementById("display").value = value
+    let operator = ["+", "*", ".", "/", "-"];
+
+    let val = document.getElementById("display").value;
+    if (operator.includes(value) && operator.includes(val.slice(-1))) {
+        alert("Wrong input");
     } else {
-        document.getElementById("display").value += value;
+        if(val == "0") {
+            document.getElementById("display").value = value
+        } else {
+            document.getElementById("display").value += value;
+        }
     }
 }
 
 function calculate() {
-    var p = document.getElementById("display").value;
-    var q = eval(p);
-    document.getElementById("display").value = q;
+    let str = document.getElementById("display").value;
+    let result = "";
+    try {
+        result = eval(str);
+        document.getElementById("display").value = result;
+    } catch (error) {
+        alert("Wrong input");
+    }
 }
