@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    ul {
+        text-align: left;
+    }
+    h1 {
+        text-align: left;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Mockups</h1>
+    <ul>
+        <li><a asp-controller="Home" asp-action="Quiz">Quiz</a></li>
+        <li><a asp-controller="Home" asp-action="Finish">QuizResult</a></li>
+    </ul>
+</div>

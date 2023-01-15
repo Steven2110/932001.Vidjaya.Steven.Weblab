@@ -1,0 +1,12 @@
+@{
+    ViewData["Title"] = "Quiz";
+}
+
+<div>
+    <h1>Result</h1>
+    <h3> Right answers @ViewBag.CorrectAnswerCount out of @ViewBag.QuestionCount</h3>
+ 
+    @for(var i = 1; i <= @ViewBag.QuestionCount; i++) {
+        <p>@(i). @(ViewBag.results[i - 1])</p>
+    }
+</div>
